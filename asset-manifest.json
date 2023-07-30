@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Front-Michailova/static/css/main.0555de2f.css",
+    "main.js": "/Front-Michailova/static/js/main.018da2f8.js",
+    "index.html": "/Front-Michailova/index.html",
+    "main.0555de2f.css.map": "/Front-Michailova/static/css/main.0555de2f.css.map",
+    "main.018da2f8.js.map": "/Front-Michailova/static/js/main.018da2f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0555de2f.css",
+    "static/js/main.018da2f8.js"
+  ]
+}
