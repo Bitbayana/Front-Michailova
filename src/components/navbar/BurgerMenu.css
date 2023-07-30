@@ -1,0 +1,23 @@
+.burger-icon {
+    margin-right: 1rem;
+    display: none;
+    cursor: pointer;
+    height: 19px;
+    z-index: 1;
+}
+.burger-logo{
+    display: block;
+    align-items: center;
+    margin: 1rem;
+}
+
+@media (max-width: 780px) {
+    .burger-icon{
+        display: block;
+        z-index: 11;
+    }
+    .burger-logo{
+        display: flex;
+        pointer-events: none;
+    }
+}

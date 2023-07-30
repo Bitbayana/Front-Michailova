@@ -1,0 +1,19 @@
+import React from 'react';
+import './ListItem.css'; // Подключаем стили
+
+const ListItem = ({ text, link, onMouseEnter, onMouseLeave }) => {
+    return (
+        <li onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+            <a href={link}>{text}</a>
+            <span>
+                <svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.33334 7.7L4.66668 4.5L1.33334 1.3" stroke="black" stroke-linecap="square"/>
+                </svg>
+            </span>
+        </li>
+    );
+};
+
+export default ListItem;
+
+
